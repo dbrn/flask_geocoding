@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <LINK href="../static/main.css" rel="stylesheet">
+    <title>Geo-coding service</title>
+</head>
+<body>
+    <CENTER><DIV class="container">
+        <DIV class="header">
+            <H1>WELCOME TO MY GEO-CODING SERVICE</H1><BR>
+                <DIV class="window">
+                    <H2>Please select a file to upload</H2>
+                    <P class="normal">It must have a column named: "Address" (<I>case insensitive</I>)</P>
+                    {% block error %}
+                    {% endblock %}
+                </DIV>
+        </DIV>
+        <DIV class="table">
+            {% block table %}
+            {% endblock %}
+        </DIV>
+        <DIV class="controls">
+            <BR>
+            <FORM action="{{url_for('answer')}}" method="post" enctype="multipart/form-data">
+                <INPUT type="file" name="file_command">
+                <SPAN class="space"></SPAN>
+                <BUTTON type="submit">SEND_FILE</BUTTON>
+            </FORM>
+        </DIV>
+    </DIV></CENTER>
+</body>
+</html>

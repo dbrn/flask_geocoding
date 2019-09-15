@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block error %}<P class="message">{{ error }}</P>{% endblock %}
+{% block table %}
+{% if table %}
+<div class="geo">
+{{ table }}
+</div>
+<DIV class="controls"><BR><FORM action="../static/geocoordinates.csv" method="GET">
+    <BUTTON type="submit">DOWNLOAD</BUTTON>
+</FORM></DIV>
+{% endif %}
+{% endblock %}

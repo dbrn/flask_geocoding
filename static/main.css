@@ -1,0 +1,125 @@
+body {
+    background-color: #CCCCCC;
+}
+
+.container {
+    margin-top: 33px;
+    background-color: blue;
+    width: 50%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #CCCCCC;
+    font-family: "monospace";
+    border: 3px solid black;
+    box-shadow: 9px 9px black;
+    margin-bottom: 33px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 24px;
+    background-color: black;
+    padding: 3px;
+}
+
+h2 {
+    font-size: 18px;
+    color: yellow;
+}
+
+p.message {
+    color: yellow;
+    font-weight: bold;
+    background-color: red;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 3px;
+    border: 3px solid black;
+}
+
+p.normal {
+    font size: 12px;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.controls {
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 6px;
+    border: 3px solid black;
+    font-family: "monospace";
+    font-size: 12px;
+    box-shadow: 1px 3px black;
+    height: 38.5px;
+    width: 33%;
+    font-weight: bold;
+}
+
+input {
+    background-color: yellow;
+    color: black;
+    padding: 6px;
+    border: 3px solid black;
+    font-family: "monospace";
+    font-size: 12px;
+    box-shadow: 1px 3px black;
+    height: 21px;
+    width: 33%;
+    font-weight: bold;
+}
+
+input:hover, button:hover {
+    background-color: gold;
+}
+
+.space {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.geo {
+    background-color: #CCCCCC;
+    color: black;
+    font-width: bold;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    padding: 6px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    overflow: hide;
+}
+
+table {
+    text-align: center;
+    border: 0px;
+    width: 100%;
+    empty-cells: hide;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+th {
+    background-color: blue;
+    color: yellow;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 3px;
+}
+
+tr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+tr:hover {
+    background-color: #AAAAAA;
+}
